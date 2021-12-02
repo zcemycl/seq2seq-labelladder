@@ -1,5 +1,5 @@
 ## Sequence-to-sequence Hierarchical Categories Classification
-The repo proposes a method to classify hierarchical labels, from level 1 to level3. There are 9 labels in l1, 70 in l2 ad 219 in l3, each label in layer n has different distribution of labels in next layer n+1. 
+The repo proposes a method (encoder-decoder-attention network) to classify hierarchical labels, from level 1 to level3. There are 9 labels in l1, 70 in l2 ad 219 in l3, each label in layer n has different distribution of labels in next layer n+1, it manifests a ladder structure resembling a n-gram model, so that the rnn-based decoder can be applied.
 
 ### How to run?
 1. Install the required packages,
