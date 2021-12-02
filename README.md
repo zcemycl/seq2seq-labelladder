@@ -12,7 +12,11 @@ python train.py [--csv classification_dataset.csv][--pairs_txt pairs.txt]
  [--seed 1][--split 0.99][--logdir log/run][--checkpoint weight/run]
  [--iters 75000][--saveIntervals 1000][--lr 0.01]
 ```
-3. Predict the new sentence via,
+3. View training progress via tensorboard,
+```
+tensorboard --logdir log/run
+```
+4. Predict the new sentence via,
 ```
 python predict.py [--weightE weight/run/encoder-75000.pth]
  [--weightD weight/run/attn_decoder-75000.pth][--pairs_txt pairs.txt]
