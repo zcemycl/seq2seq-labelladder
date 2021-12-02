@@ -59,6 +59,16 @@ python predict.py [--weightE weight/run/encoder-75000.pth]
             <td>person (educationalinstitution)</td>
             <td>journalist (university)</td>
         </tr>
+        <tr>
+         <td>Test Accuracy</td>
+         <td>93.08%</td>
+         <td>85.04%</td>
+         <td>77.02%</td>
+        </tr>
+        <tr>
+         <td>Overall</td>
+         <td colspan=3>75.77%</td>
+        </tr>
 
 </table>
 
