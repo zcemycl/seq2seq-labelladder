@@ -37,7 +37,6 @@ python predict.py [--weightE weight/run/encoder-75000.pth]
             <th>l3</th>
         </tr>
     </thead>
-    <tbody>
         <tr>
             <td>bishop cathedral catholic church community diocesan diocese heart home know mother new parish present recently sacred seat well york</td>
             <td>place</td>
@@ -57,6 +56,5 @@ python predict.py [--weightE weight/run/encoder-75000.pth]
             <td>journalist (university)</td>
         </tr>
 
-    </tbody>
 </table>
 
